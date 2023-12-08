@@ -7,10 +7,10 @@ import './style.css'
 pageLoad();
 loadHomePage();
 
-const btns = document.querySelectorAll("btn");
+const btns = document.querySelectorAll("button");
 
 btns.forEach((btn) => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener('click', () => {
         resetContentDiv();
         if (btn.className === "Home") {
             loadHomePage();
@@ -26,7 +26,7 @@ function resetContentDiv() {
     const content = document.getElementById("content");
     let child = content.lastElementChild;
     while (child) {
-        content.remove(child);
+        content.removeChild(child);
         child = content.lastElementChild;
     }
 }

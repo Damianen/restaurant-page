@@ -3,15 +3,8 @@ export default function pageLoad() {
     navBar.classList.add("nav-bar");
     for (let i = 0; i < 3; i++) {
         const btn = document.createElement("button");
-        let textContext = "";
-        if (i === 0) {
-            textContext = "Home";
-        } else if (i === 1) {
-            textContext = "Menu";
-        } else {
-            textContext = "Contact";
-        }
-        btn.textContent = textContext;
+        btn.textContent = 0 === i ? "Home" : 1 === i ? "Menu" : "Contact";
+        btn.className = 0 === i ? "Home" : 1 === i ? "Menu" : "Contact";
         navBar.append(btn);
     }
 
