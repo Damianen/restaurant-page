@@ -1,15 +1,25 @@
-export default function pageLoad() {
-    const contentDiv = document.querySelector("#content");
+export default function pageLoad() {    
+    const navBar = document.createElement("nav");
+    navBar.classList.add("nav-bar");
+    for (let i = 0; i < 3; i++) {
+        const btn = document.createElement("button");
+        let textContext = "";
+        if (i === 0) {
+            textContext = "Home";
+        } else if (i === 1) {
+            textContext = "Menu";
+        } else {
+            textContext = "Contact";
+        }
+        btn.textContent = textContext;
+        navBar.append(btn);
+    }
 
-    const restaurantImg = document.createElement("img");
-    restaurantImg.src = "https://wepik.com/api/image/ai/9abe7624-fda1-414a-93d6-e83276a27b69";
-    restaurantImg.alt = "restaurant";
+    const contentDiv = document.createElement("div");
+    contentDiv.setAttribute('id', 'content');
 
-    const title = document.createElement("h1");
-    title.textContent = "Welcome to the cosmic cuisine corner";
+    const footer = document.createElement("footer");
+    footer.textContent = "Copyright © Damian Buskens 2023"
 
-    const text = document.createElement("p");
-    text.textContent = "We are located on mars in tesla vile on the 2nd street. We are the best restaurant on mars (we are also the only restaurant on mars). We have some fine martian cuisine come over and have a taste.";
-
-    contentDiv.append(restaurantImg, title, text);
+    document.body.append(navBar, contentDiv, footer);
 }
