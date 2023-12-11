@@ -1,0 +1,52 @@
+{
+    "dish1": {
+      "title": "Stellar Stardust Soup",
+      "description": "A velvety blend of exotic spices and meteorite-infused broth, garnished with edible glitter to mimic the shimmering beauty of distant galaxies.",
+      "imgUrl": "https://wepik.com/api/image/ai/9ad2afa8-1e6b-4caa-9cff-6abbdf6179ce"
+    },
+    "dish2": {
+      "title": "Quasar Quinoa Bowl",
+      "description": "A nutrient-packed bowl featuring Martian-grown quinoa, solar flare-roasted vegetables, and a tangy cosmic vinaigrette.",
+      "imgUrl": "https://wepik.com/api/image/ai/9ad2b02a-9c0c-4605-a967-c11814b69761"
+    },
+    "dish3": {
+      "title": "Astro Avocado Tartare",
+      "description": "Freshly diced avocados mixed with celestial herbs, served on a bed of asteroid chips for a crunchy texture.",
+      "imgUrl": "https://wepik.com/api/image/ai/9ad2b0ea-4a5b-4688-a464-4eadf3b05321"
+    },
+    "dish4": {
+      "title": "Nebula Noodles with Nebulous Sauce",
+      "description": "Hand-pulled Martian noodles bathed in a savory sauce made from the rare nebula spice, creating a dish that's as visually stunning as it is delicious.",
+      "imgUrl": "https://wepik.com/api/image/ai/9ad2b26a-7a80-4ba6-8c0b-d646c4302d05"
+    },
+    "dish5": {
+      "title": "Galactic Grilled Quasar Steak",
+      "description": "A succulent cut of Martian quasar steak, marinated in an interstellar blend of herbs and grilled to perfection, served with nebula-infused mashed potatoes.",
+      "imgUrl": "https://wepik.com/api/image/ai/9ad2b2ee-a759-44b9-92e3-e75b62d82973"
+    },
+    "dish6": {
+      "title": "Cosmic Cauliflower Clouds",
+      "description": "Light and fluffy roasted cauliflower florets dusted with edible stardust, creating a celestial side dish that's both whimsical and flavorful.",
+      "imgUrl": "https://wepik.com/api/image/ai/9ad2b707-cc18-4ea3-ae19-bd9f83fc5a92"
+    },
+    "dish7": {
+      "title": "Interplanetary Sushi Fusion",
+      "description": "A fusion of Earth and Mars with sushi rolls featuring Martian seaweed, dehydrated space fish, and a tangy red planet soy sauce.",
+      "imgUrl": "https://wepik.com/api/image/ai/9ad2b76b-c7ad-4622-88dc-4c8316ee6529"
+    },
+    "dish8": {
+      "title": "Saturn Rings Salad",
+      "description": "Crispy Saturn ring-shaped tempura vegetables atop a bed of mixed greens, drizzled with a rings of Saturn-inspired balsamic glaze.",
+      "imgUrl": "https://wepik.com/api/image/ai/9ad2b92b-656a-4eec-84cd-78e432c5cfb9"
+    },
+    "dish9": {
+      "title": "Meteorite Macarons",
+      "description": "Delicate and colorful macarons filled with a velvety meteorite-infused ganache, providing a sweet ending to your cosmic culinary adventure.",
+      "imgUrl": "https://wepik.com/api/image/ai/9ad2b9d3-eb5f-4fdd-99ac-e84029bbf763"
+    },
+    "dish10": {
+      "title": "Astronaut's Delight Ice Cream Sundae",
+      "description": "A gravity-defying dessert featuring Martian red velvet ice cream, zero-gravity chocolate sauce, and topped with a sprinkle of edible meteorite fragments.",
+      "imgUrl": "https://wepik.com/api/image/ai/9ad2ba48-940d-4295-806c-09c7901e12d4"
+    }
+  }

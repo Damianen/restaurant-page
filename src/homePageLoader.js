@@ -2,6 +2,7 @@ export default function loadHomePage() {
     const contentDiv = document.querySelector("#content");
 
     const restaurantImg = document.createElement("img");
+    restaurantImg.classList.add("restaurant-img");
     restaurantImg.src = "https://wepik.com/api/image/ai/9abe7624-fda1-414a-93d6-e83276a27b69";
     restaurantImg.alt = "restaurant";
 
