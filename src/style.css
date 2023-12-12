@@ -80,7 +80,7 @@ footer {
     flex-direction: column;
 }
 
-.dishes-div {
+.dishes-div, .persons-div {
     margin: 50px;
     display: grid;
     gap: 50px;
@@ -91,22 +91,27 @@ h1.menu-title {
     font-size: 100px;
 }
 
-.dish-div {
+h1.contact-title {
+    margin-top: 50px;
+    font-size: 100px;
+}
+
+.dish-div, .person-div {
     border-radius: 20px;
     border: 1px solid #3b3b3b;
     background-color: #5f251d;
 }
 
-.dish-div img {
+.dish-div img, .person-div img {
     border-radius: 20px;
     width: 100%;
 }
 
-.dish-title {
+.dish-title, .person-title {
     padding: 20px;
 }
 
-.dish-text {
+.dish-text, .person-text {
     padding-left: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
