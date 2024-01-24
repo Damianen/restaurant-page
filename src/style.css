@@ -30,6 +30,13 @@ body {
     font-weight: 800;
     height: 50px;
     width: 200px;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-bar button:hover {
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgba(95, 37, 29, 0.7);
+    transform: translateY(-2px);
 }
 
 footer {
@@ -51,7 +58,7 @@ footer {
     max-width: 1200px;
     border-radius: 50px;
     border: 1px solid #3b3b3b;
-    background-color: #3C0F09;
+    background-color: #3c0f09;
 }
 
 .restaurant-img {
@@ -81,11 +88,13 @@ footer {
 }
 
 .dishes-div, .persons-div {
+    grid-template-columns: repeat(2, minmax(300px, 50%));
     margin: 50px;
     display: grid;
     gap: 50px;
-    grid-template-columns: repeat(2, minmax(300px, 50%));
 }
+
+
 
 h1.menu-title {
     font-size: 100px;
@@ -100,6 +109,11 @@ h1.contact-title {
     border-radius: 20px;
     border: 1px solid #3b3b3b;
     background-color: #5f251d;
+    transition: 0.3s ease-in-out;
+}
+
+.dish-div:hover, .person-div:hover {
+    transform: scale(1.05);
 }
 
 .dish-div img, .person-div img {
